@@ -1,0 +1,602 @@
+[04:31:42] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.19.3
+[04:31:43] [main/WARN]: Warnings were found!
+ - Mod 'Spawn Animations' (spawnanimations) 1.11.5+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.11.5+mod recommends any version of mr_spawn_animationscompats, which is missing!
+	 - You should install any version of mr_spawn_animationscompats for the optimal experience.
+[04:31:43] [main/INFO]: Loading 157 mods:
+	- a_good_place 1.21-1.2.6
+	- almanac 1.5.2
+	- balm 21.0.60
+	   \-- kuma_api 21.0.8
+	- bclib 21.0.13
+	- bettercaves 1.21.1-Fabric-3.1.4
+	   \-- org_reflections_reflections 0.10.2
+	- betterdeserttemples 1.21.1-Fabric-4.1.5
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.21.1-Fabric-5.1.4
+	   \-- org_reflections_reflections 0.10.2
+	- betterend 21.0.11
+	- betterendisland 1.21.1-Fabric-3.1.2
+	   \-- org_reflections_reflections 0.10.2
+	- betterfortresses 1.21.1-Fabric-3.1.5
+	   \-- org_reflections_reflections 0.10.2
+	- betterjungletemples 1.21.1-Fabric-3.1.2
+	   \-- org_reflections_reflections 0.10.2
+	- bettermineshafts 1.21.1-Fabric-5.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- betternether 21.0.11
+	- betteroceanmonuments 1.21.1-Fabric-4.1.2
+	   \-- org_reflections_reflections 0.10.2
+	- bettervillage 3.3.1
+	- betterwitchhuts 1.21.1-Fabric-4.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- chunky 1.4.23
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.39
+	- creeperoverhaul 4.0.6
+	   \-- com_teamresourceful_resourceful-cosmetics-4j 1.0.3
+	- deeper_oceans 2.0.1
+	   \-- apollib 1.1.4
+	        \-- de_marhali_json5-java 3.0.0
+	- deeperdarker 1.3.3-plus-b
+	   \-- customportalapi 0.0.1-beta67-1.21
+	- echoes_of_the_end__structures_ 12.0.13
+	- endrem 6.0.2
+	- fabric-api 0.116.13+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.72+7b3d111d19
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.7+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.12.0+c3656daa19
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.7+5b36e0f719
+	   |-- fabric-data-generation-api-v1 20.2.38+60a6976219
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.14+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.1+d30f6a7919
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.16+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.2+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.26+639b4c0719
+	   |-- fabric-screen-handler-api-v1 1.3.91+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.4+7b3d111d19
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabric-language-kotlin 1.13.12+kotlin.2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- ferritecore 7.0.3
+	- geckolib 4.9.2
+	- hardcorerevival 21.1.16
+	- hopobetterruinedportal 1.4.4
+	- hybrid-aquatic 1.5.5
+	- incendium 5.4.3
+	- java 21
+	- letmedespawn 1.5.0
+	- libraryferret 4.0.0
+	- lithium 0.15.2+mc1.21.1
+	- lithostitched 1.7.13
+	- minecraft 1.21.1
+	- modernfix 5.25.1+mc1.21.1
+	- mr_true_ending 1-v1.1.4d
+	- owo 0.13.0-alpha.15+1.21
+	   |-- blue_endless_jankson 1.2.2
+	   |-- io_wispforest_endec 0.1.5.1
+	   |-- io_wispforest_endec_gson 0.1.3.1
+	   |-- io_wispforest_endec_jankson 0.1.3.1
+	   \-- io_wispforest_endec_netty 0.1.2
+	- placeholder-api 2.4.2+1.21
+	- platform 1.3.3
+	- resourcefulconfig 3.0.11
+	- resourcefullib 3.0.12
+	   |-- com_teamresourceful_bytecodecs 1.1.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- rottencreatures 1.1.2
+	- spawnanimations 1.11.5+mod
+	- terra 6.5.0-BETA+b7326c0ff
+	   \-- cloud 2.0.0-beta.9
+	        |-- fabric-permissions-api-v0 0.3.1
+	        |-- io_leangen_geantyref_geantyref 1.3.15
+	        |-- org_incendo_cloud-brigadier 2.0.0-beta.9
+	        |-- org_incendo_cloud-core 2.0.0
+	        |-- org_incendo_cloud-minecraft-modded-common-fabric-repack_ 2.0.0-beta.9
+	        \-- org_incendo_cloud-services 2.0.0
+	- terrablender 4.1.0.8
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- terralith 2.6.2
+	- tlc 2.1.0
+	- treeharvester 9.1
+	- veinminer 2.10.3
+	   \-- fabric-permissions-api-v0 0.3.1
+	- wover 21.0.13
+	   |-- wover-biome 21.0.13
+	   |-- wover-block 21.0.13
+	   |-- wover-common 21.0.13
+	   |-- wover-core 21.0.13
+	   |-- wover-datagen 21.0.13
+	   |-- wover-events 21.0.13
+	   |-- wover-feature 21.0.13
+	   |-- wover-generator 21.0.13
+	   |-- wover-item 21.0.13
+	   |-- wover-math 21.0.13
+	   |-- wover-preset 21.0.13
+	   |-- wover-recipe 21.0.13
+	   |-- wover-structure 21.0.13
+	   |-- wover-surface 21.0.13
+	   |-- wover-tag 21.0.13
+	   |-- wover-ui 21.0.13
+	   \-- wunderlib 21.0.8
+	- yet_another_config_lib_v3 3.8.2+1.21.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yungsapi 1.21.1-Fabric-5.1.6
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- yungscavebiomes 1.21.1-Fabric-3.1.1
+	   \-- org_reflections_reflections 0.10.2
+[04:31:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Modpack-visual-2da-version/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:31:43] [main/INFO]: Compatibility level set to JAVA_17
+[04:31:43] [main/INFO]: Compatibility level set to JAVA_21
+[04:31:43] [main/WARN]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:31:43] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[04:31:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[04:31:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[04:31:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[04:31:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[04:31:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[04:31:43] [main/INFO]: Loaded configuration file for Lithium: 150 options available, 0 override(s) found
+[04:31:44] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 0 override(s) found
+[04:31:44] [main/INFO]: Applying Nashorn fix
+[04:31:44] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:31:44] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:31:44] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
+[04:31:44] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
+[04:31:44] [main/WARN]: Error loading class: com/tom/storagemod/block/entity/StorageTerminalBlockEntity (java.lang.ClassNotFoundException: com/tom/storagemod/block/entity/StorageTerminalBlockEntity)
+[04:31:44] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/LanguageReader (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/LanguageReader)
+[04:31:44] [main/WARN]: @Mixin target xyz.nucleoid.server.translations.impl.language.LanguageReader was not found owo.mixins.json:extension.json5.LanguageReaderMixin from mod owo
+[04:31:44] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[04:31:44] [main/WARN]: Error loading class: net/minecraft/class_1044 (java.lang.ClassNotFoundException: net/minecraft/class_1044)
+[04:31:44] [main/WARN]: @Mixin target net.minecraft.class_1044 was not found owo.mixins.json:ui.access.AbstractTextureAccessor from mod owo
+[04:31:44] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[04:31:47] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[04:31:50] [main/INFO]: Vanilla bootstrap took 5165 milliseconds
+[04:31:51] [main/INFO]: Mod proxy balm:permissions resolved as net.blay09.mods.balm.fabric.compat.FabricPermissionsAPIIntegration@74a5e626
+[04:31:51] [main/INFO]: Reflections took 43 ms to scan 1 urls, producing 0 keys and 0 values
+[04:31:51] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 0 keys and 0 values
+[04:31:51] [main/INFO]: Reflections took 9 ms to scan 1 urls, producing 1 keys and 2 values
+[04:31:51] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[04:31:51] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[04:31:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[04:31:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[04:31:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[04:31:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[04:31:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[04:31:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[04:31:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[04:31:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[04:31:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[04:31:52] [main/INFO]: =^..^=    BetterNether for 1.21    =^..^=
+[04:31:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[04:31:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[04:31:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[04:31:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[04:31:52] [main/INFO]: Loading Collective version 8.39.
+[04:31:52] [main/ERROR]: No data fixer registered for jungle_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for bamboo_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for desert_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for badlands_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for hills_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for savannah_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for mushroom_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for swamp_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for dripstone_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for cave_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for dark_oak_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for spruce_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for beach_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for snowy_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for ocean_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for birch_creeper
+[04:31:52] [main/ERROR]: No data fixer registered for deeperdarker:angler_fish
+[04:31:52] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
+[04:31:52] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
+[04:31:52] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
+[04:31:52] [main/ERROR]: No data fixer registered for deeperdarker:shattered
+[04:31:52] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
+[04:31:52] [main/ERROR]: No data fixer registered for deeperdarker:sludge
+[04:31:52] [main/ERROR]: No data fixer registered for deeperdarker:stalker
+[04:31:52] [main/ERROR]: No data fixer registered for crystallized_amber
+[04:31:52] [main/ERROR]: No data fixer registered for sculk_jaw
+[04:31:52] [main/INFO]: End Remastered config loaded with success
+[04:31:52] [main/INFO]: End Remastered eyes loaded with success
+[04:31:53] [main/INFO]: Initializing Hybrid Aquatic
+[04:31:53] [main/INFO]: Hybrid Aquatic loaded.
+[04:31:53] [main/ERROR]: No data fixer registered for african_butterflyfish
+[04:31:53] [main/ERROR]: No data fixer registered for damselfish
+[04:31:53] [main/ERROR]: No data fixer registered for flying_fish
+[04:31:53] [main/ERROR]: No data fixer registered for anglerfish
+[04:31:53] [main/ERROR]: No data fixer registered for snailfish
+[04:31:53] [main/ERROR]: No data fixer registered for barreleye
+[04:31:53] [main/ERROR]: No data fixer registered for barracuda
+[04:31:53] [main/ERROR]: No data fixer registered for betta
+[04:31:53] [main/ERROR]: No data fixer registered for pearlfish
+[04:31:53] [main/ERROR]: No data fixer registered for stingray
+[04:31:53] [main/ERROR]: No data fixer registered for manta_ray
+[04:31:53] [main/ERROR]: No data fixer registered for parrotfish
+[04:31:53] [main/ERROR]: No data fixer registered for wrasse
+[04:31:53] [main/ERROR]: No data fixer registered for surgeonfish
+[04:31:53] [main/ERROR]: No data fixer registered for clownfish
+[04:31:53] [main/ERROR]: No data fixer registered for boxfish
+[04:31:53] [main/ERROR]: No data fixer registered for discus
+[04:31:53] [main/ERROR]: No data fixer registered for dragonfish
+[04:31:53] [main/ERROR]: No data fixer registered for flashlight_fish
+[04:31:53] [main/ERROR]: No data fixer registered for squirrelfish
+[04:31:53] [main/ERROR]: No data fixer registered for goldfish
+[04:31:53] [main/ERROR]: No data fixer registered for carp
+[04:31:53] [main/ERROR]: No data fixer registered for trout
+[04:31:53] [main/ERROR]: No data fixer registered for sunfish
+[04:31:53] [main/ERROR]: No data fixer registered for shiner
+[04:31:53] [main/ERROR]: No data fixer registered for gourami
+[04:31:53] [main/ERROR]: No data fixer registered for pleco
+[04:31:53] [main/ERROR]: No data fixer registered for lionfish
+[04:31:53] [main/ERROR]: No data fixer registered for mahi
+[04:31:53] [main/ERROR]: No data fixer registered for moray_eel
+[04:31:53] [main/ERROR]: No data fixer registered for needlefish
+[04:31:53] [main/ERROR]: No data fixer registered for mackerel
+[04:31:53] [main/ERROR]: No data fixer registered for herring
+[04:31:53] [main/ERROR]: No data fixer registered for oscar
+[04:31:53] [main/ERROR]: No data fixer registered for opah
+[04:31:53] [main/ERROR]: No data fixer registered for piranha
+[04:31:53] [main/ERROR]: No data fixer registered for ratfish
+[04:31:53] [main/ERROR]: No data fixer registered for rockfish
+[04:31:53] [main/ERROR]: No data fixer registered for sea_bass
+[04:31:53] [main/ERROR]: No data fixer registered for john_dory
+[04:31:53] [main/ERROR]: No data fixer registered for sea_angel
+[04:31:53] [main/ERROR]: No data fixer registered for seahorse
+[04:31:53] [main/ERROR]: No data fixer registered for seadragon
+[04:31:53] [main/ERROR]: No data fixer registered for stonefish
+[04:31:53] [main/ERROR]: No data fixer registered for ocean_sunfish
+[04:31:53] [main/ERROR]: No data fixer registered for tetra
+[04:31:53] [main/ERROR]: No data fixer registered for pupfish
+[04:31:53] [main/ERROR]: No data fixer registered for tiger_barb
+[04:31:53] [main/ERROR]: No data fixer registered for blowfish
+[04:31:53] [main/ERROR]: No data fixer registered for triggerfish
+[04:31:53] [main/ERROR]: No data fixer registered for tuna
+[04:31:53] [main/ERROR]: No data fixer registered for golden_dorado
+[04:31:53] [main/ERROR]: No data fixer registered for oarfish
+[04:31:53] [main/ERROR]: No data fixer registered for coelacanth
+[04:31:53] [main/ERROR]: No data fixer registered for danio
+[04:31:53] [main/ERROR]: No data fixer registered for arrow_squid
+[04:31:53] [main/ERROR]: No data fixer registered for firefly_squid
+[04:31:53] [main/ERROR]: No data fixer registered for cuttlefish
+[04:31:53] [main/ERROR]: No data fixer registered for octopus
+[04:31:53] [main/ERROR]: No data fixer registered for vampire_squid
+[04:31:53] [main/ERROR]: No data fixer registered for umbrella_octopus
+[04:31:53] [main/ERROR]: No data fixer registered for nautilus
+[04:31:53] [main/ERROR]: No data fixer registered for coconut_crab
+[04:31:53] [main/ERROR]: No data fixer registered for dungeness_crab
+[04:31:53] [main/ERROR]: No data fixer registered for crayfish
+[04:31:53] [main/ERROR]: No data fixer registered for fiddler_crab
+[04:31:53] [main/ERROR]: No data fixer registered for flower_crab
+[04:31:53] [main/ERROR]: No data fixer registered for ghost_crab
+[04:31:53] [main/ERROR]: No data fixer registered for hermit_crab
+[04:31:53] [main/ERROR]: No data fixer registered for horseshoe_crab
+[04:31:53] [main/ERROR]: No data fixer registered for lightfoot_crab
+[04:31:53] [main/ERROR]: No data fixer registered for decorator_crab
+[04:31:53] [main/ERROR]: No data fixer registered for lobster
+[04:31:53] [main/ERROR]: No data fixer registered for shrimp
+[04:31:53] [main/ERROR]: No data fixer registered for vampire_crab
+[04:31:53] [main/ERROR]: No data fixer registered for spider_crab
+[04:31:53] [main/ERROR]: No data fixer registered for yeti_crab
+[04:31:53] [main/ERROR]: No data fixer registered for giant_isopod
+[04:31:53] [main/ERROR]: No data fixer registered for karkinos
+[04:31:53] [main/ERROR]: No data fixer registered for karcinogen
+[04:31:53] [main/ERROR]: No data fixer registered for karcinoma
+[04:31:53] [main/ERROR]: No data fixer registered for sea_slug
+[04:31:53] [main/ERROR]: No data fixer registered for sea_cucumber
+[04:31:53] [main/ERROR]: No data fixer registered for sea_urchin
+[04:31:53] [main/ERROR]: No data fixer registered for starfish
+[04:31:53] [main/ERROR]: No data fixer registered for crown_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for big_red_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for cosmic_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for firework_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for barrel_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for box_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for blue_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for cepheidae_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for lions_mane_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for mauve_stinger
+[04:31:53] [main/ERROR]: No data fixer registered for moon_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for nomura_jellyfish
+[04:31:53] [main/ERROR]: No data fixer registered for sea_nettle
+[04:31:53] [main/ERROR]: No data fixer registered for basking_shark
+[04:31:53] [main/ERROR]: No data fixer registered for bull_shark
+[04:31:53] [main/ERROR]: No data fixer registered for frilled_shark
+[04:31:53] [main/ERROR]: No data fixer registered for hound_shark
+[04:31:53] [main/ERROR]: No data fixer registered for lantern_shark
+[04:31:53] [main/ERROR]: No data fixer registered for great_white_shark
+[04:31:53] [main/ERROR]: No data fixer registered for hammerhead_shark
+[04:31:53] [main/ERROR]: No data fixer registered for thresher_shark
+[04:31:53] [main/ERROR]: No data fixer registered for tiger_shark
+[04:31:53] [main/ERROR]: No data fixer registered for whale_shark
+[04:31:53] [main/ERROR]: No data fixer registered for otter
+[04:31:53] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[04:31:53] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[04:31:53] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[04:31:53] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[04:31:53] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[04:31:53] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[04:31:53] [main/INFO]: Loading Hybrid Aquatic config file
+[04:31:53] [main/INFO]: Initialize mod Library Ferret
+[04:31:53] [main/INFO]: Initialized mod Library Ferret
+[04:31:54] [main/INFO]: Its called Unobtainium until you obtain it, thats the thing
+[04:31:54] [main/ERROR]: No data fixer registered for burned
+[04:31:54] [main/ERROR]: No data fixer registered for frostbitten
+[04:31:54] [main/ERROR]: No data fixer registered for swampy
+[04:31:54] [main/ERROR]: No data fixer registered for undead_miner
+[04:31:54] [main/ERROR]: No data fixer registered for mummy
+[04:31:54] [main/ERROR]: No data fixer registered for glacial_hunter
+[04:31:54] [main/ERROR]: No data fixer registered for hunter_wolf
+[04:31:54] [main/ERROR]: No data fixer registered for scarab
+[04:31:54] [main/ERROR]: No data fixer registered for dead_beard
+[04:31:54] [main/ERROR]: No data fixer registered for zombie_lackey
+[04:31:54] [main/ERROR]: No data fixer registered for skeleton_lackey
+[04:31:54] [main/ERROR]: No data fixer registered for immortal
+[04:31:54] [main/ERROR]: No data fixer registered for zap
+[04:31:54] [main/ERROR]: No data fixer registered for primed_tnt_barrel
+[04:31:54] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[04:31:54] [main/INFO]: Initializing Terra...
+[04:31:54] [main/INFO]: Loading config.yml
+[04:31:54] [main/INFO]: Loading config values from config.yml
+[04:31:54] [main/WARN]: Mod a_good_place, version 1.21-1.2.6 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[04:31:54] [main/WARN]: Mod collective, version 8.39 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[04:31:54] [main/WARN]: Mod io_wispforest_endec, version 0.1.5.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[04:31:54] [main/WARN]: Mod io_wispforest_endec_gson, version 0.1.3.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[04:31:54] [main/WARN]: Mod io_wispforest_endec_jankson, version 0.1.3.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[04:31:54] [main/WARN]: Mod mr_true_ending, version 1-v1.1.4d does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[04:31:54] [main/WARN]: Mod terrablender, version 4.1.0.8 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[04:31:54] [main/WARN]: Mod treeharvester, version 9.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[04:31:54] [main/INFO]: Loading 184 Terra addons:
+        - biome-provider-extrusion@1.0.0-BETA+b7326c0ff
+        - biome-provider-image@1.0.1-BETA+b7326c0ff
+        - biome-provider-image-v2@1.0.1-BETA+b7326c0ff
+        - biome-provider-pipeline@1.0.2-BETA+b7326c0ff
+        - biome-provider-pipeline-v2@1.0.1-BETA+b7326c0ff
+        - biome-provider-single@1.0.0-BETA+b7326c0ff
+        - biome-query-api@1.0.0-BETA+b7326c0ff
+        - chunk-generator-noise-3d@1.2.1-BETA+b7326c0ff
+        - command-addons@1.0.0-BETA+b7326c0ff
+        - command-packs@1.0.0-BETA+b7326c0ff
+        - command-profiler@1.0.0-BETA+b7326c0ff
+        - command-structures@1.0.0-BETA+b7326c0ff
+        - config-biome@1.0.0-BETA+b7326c0ff
+        - config-distributors@1.0.1-BETA+b7326c0ff
+        - config-feature@1.0.0-BETA+b7326c0ff
+        - config-flora@1.0.1-BETA+b7326c0ff
+        - config-locators@1.1.1-BETA+b7326c0ff
+        - config-noise-function@1.2.0-BETA+b7326c0ff
+        - config-number-predicate@1.0.0-BETA+b7326c0ff
+        - config-ore@1.1.1-BETA+b7326c0ff
+        - config-palette@1.0.0-BETA+b7326c0ff
+        - config-structure@1.0.1-BETA+b7326c0ff
+        - fabric:almanac@1.5.2
+        - fabric:apollib@1.1.4
+        - fabric:balm@21.0.60
+        - fabric:bclib@21.0.13
+        - fabric:bettercaves@1.21.1-Fabric-3.1.4
+        - fabric:betterdeserttemples@1.21.1-Fabric-4.1.5
+        - fabric:betterdungeons@1.21.1-Fabric-5.1.4
+        - fabric:betterend@21.0.11
+        - fabric:betterendisland@1.21.1-Fabric-3.1.2
+        - fabric:betterfortresses@1.21.1-Fabric-3.1.5
+        - fabric:betterjungletemples@1.21.1-Fabric-3.1.2
+        - fabric:bettermineshafts@1.21.1-Fabric-5.1.1
+        - fabric:betternether@21.0.11
+        - fabric:betteroceanmonuments@1.21.1-Fabric-4.1.2
+        - fabric:bettervillage@3.3.1
+        - fabric:betterwitchhuts@1.21.1-Fabric-4.1.1
+        - fabric:blue_endless_jankson@1.2.2
+        - fabric:chunky@1.4.23
+        - fabric:cloth-basic-math@0.6.1
+        - fabric:cloth-config@15.0.140
+        - fabric:cloud@2.0.0-beta.9
+        - fabric:com_electronwill_night-config_core@3.6.7
+        - fabric:com_electronwill_night-config_toml@3.6.7
+        - fabric:com_teamresourceful_bytecodecs@1.1.2
+        - fabric:com_teamresourceful_resourceful-cosmetics-4j@1.0.3
+        - fabric:com_teamresourceful_yabn@1.0.3
+        - fabric:com_twelvemonkeys_common_common-image@3.12.0
+        - fabric:com_twelvemonkeys_common_common-io@3.12.0
+        - fabric:com_twelvemonkeys_common_common-lang@3.12.0
+        - fabric:com_twelvemonkeys_imageio_imageio-core@3.12.0
+        - fabric:com_twelvemonkeys_imageio_imageio-metadata@3.12.0
+        - fabric:com_twelvemonkeys_imageio_imageio-webp@3.12.0
+        - fabric:creeperoverhaul@4.0.6
+        - fabric:customportalapi@0.0.1-beta67-1.21
+        - fabric:de_marhali_json5-java@3.0.0
+        - fabric:deeper_oceans@2.0.1
+        - fabric:deeperdarker@1.3.3-plus-b
+        - fabric:echoes_of_the_end__structures_@12.0.13
+        - fabric:endrem@6.0.2
+        - fabric:fabric-api@0.116.13+1.21.1
+        - fabric:fabric-api-base@0.4.42+6573ed8c19
+        - fabric:fabric-api-lookup-api-v1@1.6.72+7b3d111d19
+        - fabric:fabric-biome-api-v1@13.0.31+d527f9fd19
+        - fabric:fabric-block-api-v1@1.1.0+0bc3503219
+        - fabric:fabric-block-view-api-v2@1.0.11+ebb2264e19
+        - fabric:fabric-command-api-v1@1.2.49+f71b366f19
+        - fabric:fabric-command-api-v2@2.2.28+6ced4dd919
+        - fabric:fabric-commands-v0@0.2.66+df3654b319
+        - fabric:fabric-content-registries-v0@8.0.19+b559734419
+        - fabric:fabric-convention-tags-v1@2.1.7+7f945d5b19
+        - fabric:fabric-convention-tags-v2@2.12.0+c3656daa19
+        - fabric:fabric-crash-report-info-v1@0.2.29+0af3f5a719
+        - fabric:fabric-data-attachment-api-v1@1.4.7+5b36e0f719
+        - fabric:fabric-data-generation-api-v1@20.2.38+60a6976219
+        - fabric:fabric-dimensions-v1@4.0.1+65213ef819
+        - fabric:fabric-entity-events-v1@1.8.0+2b27e0a419
+        - fabric:fabric-events-interaction-v0@0.7.14+ba9dae0619
+        - fabric:fabric-game-rule-api-v1@1.0.53+6ced4dd919
+        - fabric:fabric-item-api-v1@11.2.0+3b3cb2e819
+        - fabric:fabric-item-group-api-v1@4.1.7+def88e3a19
+        - fabric:fabric-language-kotlin@1.13.12+kotlin.2.4.0
+        - fabric:fabric-lifecycle-events-v1@2.6.0+0865547519
+        - fabric:fabric-loot-api-v2@3.0.15+3f89f5a519
+        - fabric:fabric-loot-api-v3@1.0.3+3f89f5a519
+        - fabric:fabric-message-api-v1@6.0.14+8aaf3aca19
+        - fabric:fabric-networking-api-v1@4.3.1+d30f6a7919
+        - fabric:fabric-object-builder-api-v1@15.2.1+40875a9319
+        - fabric:fabric-particles-v1@4.0.2+6573ed8c19
+        - fabric:fabric-permissions-api-v0@0.3.1
+        - fabric:fabric-recipe-api-v1@5.0.16+2475392c19
+        - fabric:fabric-registry-sync-v0@5.3.2+e3eddc2119
+        - fabric:fabric-rendering-data-attachment-v1@0.3.49+73761d2e19
+        - fabric:fabric-rendering-fluids-v1@3.1.6+1daea21519
+        - fabric:fabric-resource-conditions-api-v1@4.3.0+8dc279b119
+        - fabric:fabric-resource-loader-v0@1.3.1+5b5275af19
+        - fabric:fabric-screen-handler-api-v1@1.3.91+b559734419
+        - fabric:fabric-transfer-api-v1@5.4.4+7b3d111d19
+        - fabric:fabric-transitive-access-wideners-v1@6.2.0+45b9699719
+        - fabric:fabricloader@0.19.3
+        - fabric:ferritecore@7.0.3
+        - fabric:geckolib@4.9.2
+        - fabric:hardcorerevival@21.1.16
+        - fabric:hopobetterruinedportal@1.4.4
+        - fabric:hybrid-aquatic@1.5.5
+        - fabric:incendium@5.4.3
+        - fabric:io_leangen_geantyref_geantyref@1.3.15
+        - fabric:io_wispforest_endec_netty@0.1.2
+        - fabric:kuma_api@21.0.8
+        - fabric:letmedespawn@1.5.0
+        - fabric:libraryferret@4.0.0
+        - fabric:lithium@0.15.2+mc1.21.1
+        - fabric:lithostitched@1.7.13
+        - fabric:mixinextras@0.5.4
+        - fabric:modernfix@5.25.1+mc1.21.1
+        - fabric:org_incendo_cloud-brigadier@2.0.0-beta.9
+        - fabric:org_incendo_cloud-core@2.0.0
+        - fabric:org_incendo_cloud-minecraft-modded-common-fabric-repack_@2.0.0-beta.9
+        - fabric:org_incendo_cloud-services@2.0.0
+        - fabric:org_javassist_javassist@3.29.2-GA
+        - fabric:org_jetbrains_kotlin_kotlin-reflect@2.4.0
+        - fabric:org_jetbrains_kotlin_kotlin-stdlib@2.4.0
+        - fabric:org_jetbrains_kotlin_kotlin-stdlib-jdk7@2.4.0
+        - fabric:org_jetbrains_kotlin_kotlin-stdlib-jdk8@2.4.0
+        - fabric:org_jetbrains_kotlinx_atomicfu-jvm@0.33.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm@1.11.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-coroutines-jdk8@1.11.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-datetime-jvm@0.8.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm@0.9.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-io-core-jvm@0.9.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm@1.11.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-serialization-core-jvm@1.11.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-serialization-json-jvm@1.11.0
+        - fabric:org_quiltmc_parsers_gson@0.2.1
+        - fabric:org_quiltmc_parsers_json@0.2.1
+        - fabric:org_reflections_reflections@0.10.2
+        - fabric:owo@0.13.0-alpha.15+1.21
+        - fabric:placeholder-api@2.4.2+1.21
+        - fabric:platform@1.3.3
+        - fabric:resourcefulconfig@3.0.11
+        - fabric:resourcefullib@3.0.12
+        - fabric:rottencreatures@1.1.2
+        - fabric:spawnanimations@1.11.5+mod
+        - fabric:terralith@2.6.2
+        - fabric:tlc@2.1.0
+        - fabric:veinminer@2.10.3
+        - fabric:wover@21.0.13
+        - fabric:wover-biome@21.0.13
+        - fabric:wover-block@21.0.13
+        - fabric:wover-common@21.0.13
+        - fabric:wover-core@21.0.13
+        - fabric:wover-datagen@21.0.13
+        - fabric:wover-events@21.0.13
+        - fabric:wover-feature@21.0.13
+        - fabric:wover-generator@21.0.13
+        - fabric:wover-item@21.0.13
+        - fabric:wover-math@21.0.13
+        - fabric:wover-preset@21.0.13
+        - fabric:wover-recipe@21.0.13
+        - fabric:wover-structure@21.0.13
+        - fabric:wover-surface@21.0.13
+        - fabric:wover-tag@21.0.13
+        - fabric:wover-ui@21.0.13
+        - fabric:wunderlib@21.0.8
+        - fabric:yet_another_config_lib_v3@3.8.2+1.21.1-fabric
+        - fabric:yungsapi@1.21.1-Fabric-5.1.6
+        - fabric:yungscavebiomes@1.21.1-Fabric-3.1.1
+        - generation-stage-feature@1.1.0-BETA+b7326c0ff
+        - generation-stage-structure@1.0.0-BETA+b7326c0ff
+        - language-yaml@1.0.0-BETA+b7326c0ff
+        - library-image@1.1.0-BETA+b7326c0ff
+        - locator-slant-noise-3d@1.0.0-BETA+b7326c0ff
+        - minecraft@1.21.1
+        - palette-block-shortcut@1.0.0-BETA+b7326c0ff
+        - pipeline-image@1.0.0-BETA+b7326c0ff
+        - structure-block-shortcut@1.0.0-BETA+b7326c0ff
+        - structure-function-check-noise-3d@1.0.1-BETA+b7326c0ff
+        - structure-mutator@0.1.0-BETA+b7326c0ff
+        - structure-sponge-loader@1.0.0-BETA+b7326c0ff
+        - structure-terrascript-loader@1.2.0-BETA+b7326c0ff
+        - terra@1.0.0
+        - terra-fabric@1.0.0
+        - terrascript-function-sampler@1.0.0-BETA+b7326c0ff
+[04:31:54] [main/INFO]: Terra addons successfully loaded.
+[04:31:54] [main/INFO]: Finished initialization.
+[04:31:54] [main/INFO]: Initializing Terra Fabric mod...
+[04:31:54] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[04:31:54] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[04:31:54] [main/INFO]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[04:31:54] [main/INFO]: Lost Castle config loaded successfully
+[04:31:55] [main/INFO]: Veinminer Version: 2.10.3 (fabric)
